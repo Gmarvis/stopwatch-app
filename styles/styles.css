@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(26, 36, 69);
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(43, 49, 113, 0.376),rgb(11, 9, 45)),url(../run2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ffffffab;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+button {
+    box-shadow: inset
+    6px 6px 13px #fff,  6px 6px 13px rgba(0,0,0, .16);
+    background-color: #ecf0f3aa;
+    border: none;
+    border-radius: 30px;
+    color: rgb(14, 14, 77);
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#time {
+    grid-column: span 4;
+    /* height: 68px; */
+    /* width: 258px; */
+    box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0,0,0, .16);
+    background-color: #ecf0f3a1;
+    border: none;
+    border-radius: 32px;
+    color: rgba(26,25,25);
+    text-align: end;
+    margin: 10px 0px  10px 0px;
+    padding: 10px 30px;
+    font-size: 40px;
+}
+
+
+
